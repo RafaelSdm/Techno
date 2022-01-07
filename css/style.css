@@ -125,3 +125,63 @@ header #menu{
     cursor: pointer;
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: url(../images/hom1_img.png)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 9rem;
+}
+
+
+.home .image{
+    padding: 1rem;
+    flex: 1 1 40rem;
+    text-align: center;
+}
+
+
+.home .image img{
+    height: 70vh;
+    padding-top: 4rem;
+
+}
+
+.home .content{
+    padding: 1rem;
+    flex: 1 1 40rem;
+}
+
+.home .content h1{
+    font-size: 6rem;
+    color: #fff;
+}
+
+
+.home .content p{
+    font-size: 1.7rem;
+    color: #eee;
+    padding: 1rem 0;
+}
